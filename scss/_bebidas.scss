@@ -1,79 +1,35 @@
-/*bebidas inicio*/
-.beb-inicio {
-    text-align: center;
-    h3 {
-        padding: 16px;
-        color: #ffffff;
-    }
-    .cartel-prittycero {
-        #cartelpromo {
-            height: 20%;
-            width: 100%;
-        }
-        h3 {
-            color: #ffffff;
-        }
-        p {
-            color: #ffffff;
-        }
-        div {
-            #img-dest {
-                height: 180px;
-                width: 150px;
-            }
-            #img-dest:hover {
-                height: 190px;
-                width: 160px;
-            }
-            h5 {
-                font-size: 15px; 
-                color: #ffffff;
-                font-family: 'Quattrocento', serif;
-            }
-        }
-    }    
-    .prod-destac {
-              
-        .contenedor-prod {
-            display: flex;
-            flex-wrap: wrap;
+/*bebidas*/
+    .cont-bebidas {
+        .seccion-bebidas {
             text-align: center;
-            justify-content: center;
-            padding: 16px;  
-            
-            div {
-                padding: 8px;
-                #img-dest {
-                    height: 180px;
-                    width: 150px;
-                }
-                #img-dest:hover {
-                    height: 190px;
-                    width: 160px;
-                }
-                h5 {
-                    font-size: 15px; 
-                    color: #ffffff;
-                    font-family: 'Quattrocento', serif;
+
+            h4 {
+                color: #fff;
+            }
+            .cont-bebidas {
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                justify-content: center;
+                padding: 16px; 
+
+                div {  
+                    padding: 8px;
+                    #productos {
+                        height: 180px;
+                        width: 150px;
+                    }       
+                    #productos:hover {
+                        height: 190px;
+                        width: 160px;
+                    }
+                    h5 {
+                        font-size: 15px; 
+                        color: #ffffff;
+                        font-family: 'Quattrocento', serif;
+                    } 
+                    
                 }
             }
         }
-        a {
-            color: #e76666;
-            padding: 16px;
-            text-decoration: none;
-            font-family: 'Quattrocento', serif;
-        }    
-        a:hover {
-            color: #f71b1b;
-        }
-    }   
-    .cartel-tragos {
-        padding: 16px 0;
-        #carteltragos {
-            height: 20%;
-            width: 100%;
-        }
     }
-
-}    
