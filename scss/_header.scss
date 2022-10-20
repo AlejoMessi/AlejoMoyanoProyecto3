@@ -40,33 +40,6 @@
                 color: #f71b1b;
             }
         }
-        #logo {
-            padding-top: 24px;
-            height: 200px;
-            width: 200px;
-            animation-name: mov-logo;
-            animation-duration: 2s;
-            animation-iteration-count: 2;
-            animation-timing-function: ease-in-out;
-        }
-        
-        @keyframes mov-logo {
-            0% {   
-                transform: translateX(0px);
-            }
-            25% {
-                transform: translateX(-10px);
-            }
-            50% {
-                transform: translateX(10px);
-            }
-            75% {
-                transform: translateX(-10px);
-            }
-            100% {
-                transform: translateX(0px);
-            }
-        }
         
        
     }
