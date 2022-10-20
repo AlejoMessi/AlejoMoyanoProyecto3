@@ -1,0 +1,31 @@
+/*bebidas inicio*/
+.beb-destac {
+    text-align: center;
+    h3 {
+        padding: 16px;
+        color: #ffffff;
+    }
+    .prod-destac {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 16px;        
+            
+        div {
+            padding: 8px;
+            #img-dest {
+                height: 180px;
+                width: 150px;
+            }
+            #img-dest:hover {
+                height: 190px;
+                width: 160px;
+            }
+            h5 {
+                font-size: 15px; 
+                color: #ffffff;
+                font-family: 'Quattrocento', serif;
+            }
+        }
+    }
+}    

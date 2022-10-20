@@ -67,7 +67,7 @@ body {
   color: #ffffff;
 }
 .inicio .sub-inicio .sub2-inicio a {
-  color: #ff0000;
+  color: #e76666;
   font-family: "Quattrocento", serif;
   text-decoration: none;
   display: flex;
@@ -75,7 +75,7 @@ body {
   justify-content: space-around;
 }
 .inicio .sub-inicio .sub2-inicio a:hover {
-  color: #ee7777;
+  color: #f71b1b;
 }
 .inicio .sub-inicio #logo {
   padding-top: 24px;
@@ -104,8 +104,40 @@ body {
   }
 }
 
+/*bebidas inicio*/
+.beb-destac {
+  text-align: center;
+}
+.beb-destac h3 {
+  padding: 16px;
+  color: #ffffff;
+}
+.beb-destac .prod-destac {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 16px;
+}
+.beb-destac .prod-destac div {
+  padding: 8px;
+}
+.beb-destac .prod-destac div #img-dest {
+  height: 180px;
+  width: 150px;
+}
+.beb-destac .prod-destac div #img-dest:hover {
+  height: 190px;
+  width: 160px;
+}
+.beb-destac .prod-destac div h5 {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Quattrocento", serif;
+}
+
+/*footer*/
 footer {
-  background-color: rgb(167, 0, 0);
+  background-color: #000000;
   display: flex;
   flex-direction: rows;
   justify-content: space-around;
@@ -122,8 +154,8 @@ footer div a {
   display: inline-block;
   padding: 0 8px;
   margin: 0 8px;
-  color: #111;
+  color: #ffffff;
 }
 footer div a:hover {
-  color: rgb(97, 65, 65);
+  color: #807e7e;
 }
