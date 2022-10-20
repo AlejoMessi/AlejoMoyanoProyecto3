@@ -1,0 +1,129 @@
+/*navegador*/
+.contenedor-nav h1 {
+  color: #ffffff;
+  font-family: "Kaushan Script", cursive;
+  text-shadow: 0 0px 15px #918e8e, 0 0px 15px #918e8e;
+  font-size: 30px;
+  text-align: center;
+}
+.contenedor-nav .menu div {
+  font-family: "Quattrocento", serif;
+}
+.contenedor-nav .menu div .nav-inicio {
+  color: #dbd8d6;
+}
+.contenedor-nav .menu div .boton {
+  background-color: #dbd8d6;
+  padding: 2px;
+}
+.contenedor-nav .menu div div ul li #nav-1 {
+  color: #dbd8d6;
+}
+.contenedor-nav .menu div div ul li #nav-1:hover {
+  color: #707070;
+  font-size: 20px;
+}
+
+.nav-responsive {
+  display: none;
+}
+
+body {
+  background-image: url("../img/fondo10.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 30px;
+  min-height: 100vh;
+}
+
+/*inicio*/
+.inicio .sub-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inicio .sub-inicio .sub2-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.inicio .sub-inicio .sub2-inicio h2 {
+  font-size: 20px;
+  font-family: "Quattrocento", serif;
+  color: #ffffff;
+}
+.inicio .sub-inicio .sub2-inicio h3 {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 20px;
+  border: solid 2px #000000;
+  text-align: center;
+}
+.inicio .sub-inicio .sub2-inicio p {
+  color: #ffffff;
+}
+.inicio .sub-inicio .sub2-inicio a {
+  color: #ff0000;
+  font-family: "Quattrocento", serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inicio .sub-inicio .sub2-inicio a:hover {
+  color: #ee7777;
+}
+.inicio .sub-inicio #logo {
+  padding-top: 24px;
+  height: 200px;
+  width: 200px;
+  animation-name: mov-logo;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in-out;
+}
+@keyframes mov-logo {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+footer {
+  background-color: rgb(167, 0, 0);
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer div a {
+  font-family: "Quattrocento", serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 8px;
+  margin: 0 8px;
+  color: #111;
+}
+footer div a:hover {
+  color: rgb(97, 65, 65);
+}

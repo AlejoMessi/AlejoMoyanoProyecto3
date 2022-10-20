@@ -1,0 +1,41 @@
+/*navegador*/
+.contenedor-nav {
+    h1 {
+        color: #ffffff;
+        font-family: 'Kaushan Script', cursive;
+        text-shadow: 0 0px 15px #918e8e, 0 0px 15px #918e8e;
+        font-size: 30px;
+        text-align: center;
+    }
+    .menu {
+        div{
+            font-family: 'Quattrocento', serif;
+            .nav-inicio {
+                color: #dbd8d6;
+            }
+            .boton {
+                background-color: #dbd8d6;
+                padding: 2px;
+            }
+            div {
+                ul {
+                    li {
+                        #nav-1 {
+                            color: #dbd8d6;
+                            }
+                        #nav-1:hover {
+                            color: #707070;
+                            font-size: 20px;
+                            }
+                    }
+                }
+                
+            }
+            
+        }
+    }
+       
+}
+.nav-responsive {
+    display: none;
+}

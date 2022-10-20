@@ -1,0 +1,73 @@
+/*inicio*/
+.inicio {
+    .sub-inicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .sub2-inicio {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+            h2 {
+                font-size: 20px;
+                font-family: 'Quattrocento', serif;
+                color: #ffffff;
+            }
+            h3 {
+                color: #ffffff;
+                background-color: #000000;
+                font-size: 20px;
+                border: solid 2px #000000;
+                text-align: center; 
+            }
+            p {
+                color: #ffffff;
+            }   
+            a {
+                color: #ff0000;
+                font-family: 'Quattrocento', serif;
+                text-decoration: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                
+            }
+            a:hover {
+                color: #ee7777;
+            }
+        }
+        #logo {
+            padding-top: 24px;
+            height: 200px;
+            width: 200px;
+            animation-name: mov-logo;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes mov-logo {
+            0% {   
+                transform: translateX(0px);
+            }
+            25% {
+                transform: translateX(-10px);
+            }
+            50% {
+                transform: translateX(10px);
+            }
+            75% {
+                transform: translateX(-10px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+        
+        }    
+    }
+        
+}
