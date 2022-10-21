@@ -21,7 +21,22 @@
 
             <nav class="navbar navbar-expand-lg menu">
                 <div class="container-fluid menu-list">
-                    <a class="navbar-brand nav-inicio" >Bebidas</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle sub-pag" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Bebidas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" id="pag" href="aperitivos.html">Aperitivos</a></li>
+                          <li><a class="dropdown-item" id="pag" href="bebidasblancas.html">Bebidas Blancas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="cervezas.html">Cervezas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="energizantes.html">Energizantes</a></li>
+                          <li><a class="dropdown-item" id="pag" href="licores.html">Licores</a></li>
+                          <li><a class="dropdown-item" id="pag" href="gaseosas.html">Gaseosas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="vinos.html">Vinos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          
+                        </ul>
+                    </li>
                     <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation";>
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -37,10 +52,14 @@
                                 <a class="nav-link active" id="nav-1" aria-current="page" href="contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" id="nav-1" aria-current="page" href="registro.html">Iniciar Sesión</a>
+                                <a class="nav-link active" id="nav-1" aria-current="page" href="iniciarsesion.html">Iniciar Sesión</a>
                             </li>
                         </ul>
-            
+                        <!--buscador-->
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                         </form>
                     </div>
                 </div>
@@ -61,17 +80,6 @@
             
      <!--Bebidas-->
     <header class="bebidas">  
-            <!---menu izquierda--->
-        <div class="cont-menu">
-            <button>Bebidas</button>
-            <nav>
-                <a href="#">Cerveza</a>
-                <a href="#">Vinos</a>
-                <a href="#">Bebidas blancas</a>
-                <a href="#">Aperitivos</a>    
-            </nav>
-        </div>
-
         <div class="cont-bebidas">
             <section class="seccion-bebidas">
                     <h4>Bebidas Alcoholicas</h4>

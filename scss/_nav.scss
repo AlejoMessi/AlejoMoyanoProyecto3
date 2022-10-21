@@ -10,6 +10,21 @@
     .menu {
         div{
             font-family: 'Quattrocento', serif;
+            list-style: none;
+            .sub-pag {
+                color: #dbd8d6;
+                font-size: 18px;
+            }
+            .sub-pag:hover {
+                color: #707070;
+                font-size: 20px;
+            }
+            ul {
+                background: linear-gradient(to bottom, transparent, #707070),(to top, transparent, #111);
+                a {
+                   color: #ffffff;
+                }
+            }
             .nav-inicio {
                 color: #dbd8d6;
             }
