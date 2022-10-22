@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quattrocento:wght@700&display=swap" rel="stylesheet">
-    <title>Pagina Inicio</title>
+    <title>Pagina Bebidas</title>
   </head>
   <body>
     <!--navegador-->
@@ -22,19 +22,19 @@
             <nav class="navbar navbar-expand-lg menu">
                 <div class="container-fluid menu-list">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle sub-pag" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle sub-tit" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Bebidas
                         </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" id="pag" href="aperitivos.html">Aperitivos</a></li>
-                          <li><a class="dropdown-item" id="pag" href="bebidasblancas.html">Bebidas Blancas</a></li>
-                          <li><a class="dropdown-item" id="pag" href="cervezas.html">Cervezas</a></li>
-                          <li><a class="dropdown-item" id="pag" href="energizantes.html">Energizantes</a></li>
-                          <li><a class="dropdown-item" id="pag" href="licores.html">Licores</a></li>
-                          <li><a class="dropdown-item" id="pag" href="gaseosas.html">Gaseosas</a></li>
-                          <li><a class="dropdown-item" id="pag" href="vinos.html">Vinos</a></li>
+                        <ul class="dropdown-menu sub-pag">
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/aperitivos.html">Aperitivos</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/bebidasblancas.html">Bebidas Blancas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/cervezas.html">Cervezas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/energizantes.html">Energizantes</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/licores.html">Licores</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/gaseosas.html">Gaseosas</a></li>
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/vinos.html">Vinos</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          
+                          <li><a class="dropdown-item" id="pag" href="../pages/sub-pag/promociones.html">promociones</a></li>
                         </ul>
                     </li>
                     <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation";>
@@ -43,7 +43,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" id="nav-1" aria-current="page" href="index.html">Inicio</a>
+                                <a class="nav-link active" id="nav-1" aria-current="page" href="index.html">Inició</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" id="nav-1" aria-current="page" href="nosotros.html">Nosotros</a>
@@ -57,33 +57,92 @@
                         </ul>
                         <!--buscador-->
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <input class="form-control me-2" type="search" placeholder="Buscá tu bebida favorita" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                         </form>
                     </div>
                 </div>
             </nav>
-    </div> 
-
-    <div>
-        <div class="nav-responsive">
-            <h1>Bear Drinks</h1>
-            <div>
-                <a id="nav-resp-1">Inicio</a>    
-                <a href="productos.html" >Bebidas</a>    
-                <a href="promociones.html" >Promociones</a> 
-                <a href="carrito.html">Carrito</a>  
-                <a href="registro.html" >Iniciar Sesión</a>     
-            </div>
-        </div>   
-            
+    </div>     
      <!--Bebidas-->
     <header class="bebidas">  
         <div class="cont-bebidas">
-            <section class="seccion-bebidas">
-                    <h4>Bebidas Alcoholicas</h4>
+            
+                    <h4>Todas las bebidas</h4>
                     <div class="cont-bebidas">
+                        <div>
+                            <img id="productos" src="../img/skyyfrutosrojos.jpg" alt="Skyy frutos rojos" title="skyy frutos rojos">
+                            <h5>Skyy de frutos rojos</h5>
+                        </div> 
+                        <div>
+                            <img id="productos" src="../img/smirnoffsandia.png" alt="Smirnoff sandia" title="smirnoff sandia">
+                            <h5>Smirnoff de sandia</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/speed.png" alt="Speed" title="Speed">
+                            <h5>Speed 473ml</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/monster.png" alt="Monster" title="Monster">
+                            <h5>Monster 473ml</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/gancia.png" alt="Gancia" title="Gancia">
+                            <h5>Gancia 950ml</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/fernet750.jpg" alt="Fernet Branca 750ml" title="fernet branca 750ml">
+                            <h5>Fernet Branca 750ml</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/cocacola.png" alt="Coca Cola" title="coca cola">
+                            <h5>Coca Cola 2l</h5>
+                        </div>
+                        <div>
+                        <img id="productos" src="../img/viñadebalbo.jpg" alt="Viña de balbo" title="viña de balbo"> 
+                            <h5>Viña de Balbo</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/pritty.png" alt="pritty limon" title="pritty limon">
+                            <h5>Pritty limon</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/prittycero.jpg" alt="pritty limon Cero" title="pritty limon Cero">
+                            <h5>Pritty limon Cero</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/portillo.png" alt="Portillo" title="Portillo">
+                            <h5>Portillo</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/absolutee.png" alt="absolute" title="absolute">
+                            <h5>Absolute</h5>
+                        </div> 
+                        <div>
+                            <img id="productos" src="../img/gin.png" alt="gin Bombay Saphire" title="Gin Bombay Saphire">
+                            <h5>Gin Bombay Saphire</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/skyycoco.jpg" alt="Skyy de coco" title="Skyy de coco">
+                            <h5>Skyy de coco</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/santajulia.png" alt="Santa Julia" title="Santa Julia">
+                            <h5>Santa Julia</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/gancia.png" alt="Gancia" title="Gancia">
+                            <h5>Gancia 950ml</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/frizze.png" alt="Frizze" title="Frizze">
+                            <h5>Frizze</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/brahma.png" alt="Brahma" title="Brahma">
+                            <h5>Brahma</h5>
+                        </div>     
                         <div>
                             <img id="productos" src="../img/skyyfrutosrojos.jpg" alt="Skyy frutos rojos" title="skyy frutos rojos">
                             <h5>Skyy de frutos rojos</h5>
@@ -112,41 +171,48 @@
                         <img id="productos" src="../img/viñadebalbo.jpg" alt="Viña de balbo" title="viña de balbo"> 
                             <h5>Viña de Balbo</h5>
                         </div>
-                    </div>     
-            </section>
-            <section class="seccion-bebidas">
-                    <h4>Bebidas sin alcohol</h4>
-                    <div class="cont-bebidas">
                         <div>
-                            <img id="productos" src="../img/skyyfrutosrojos.jpg" alt="Skyy frutos rojos" title="skyy frutos rojos">
-                            <h5>Skyy de frutos rojos</h5>
+                            <img id="productos" src="../img/pritty.png" alt="pritty limon" title="pritty limon">
+                            <h5>Pritty limon</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/prittycero.jpg" alt="pritty limon Cero" title="pritty limon Cero">
+                            <h5>Pritty limon Cero</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/portillo.png" alt="Portillo" title="Portillo">
+                            <h5>Portillo</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/absolutee.png" alt="absolute" title="absolute">
+                            <h5>Absolute</h5>
+                        </div>
+                        <div>
+                            <img id="productos" src="../img/gancia.png" alt="Gancia" title="Gancia">
+                            <h5>Gancia 950ml</h5>
                         </div> 
                         <div>
-                            <img id="productos" src="../img/smirnoffsandia.png" alt="Smirnoff sandia" title="smirnoff sandia">
-                            <h5>Smirnoff de sandia</h5>
+                            <img id="productos" src="../img/gin.png" alt="gin Bombay Saphire" title="Gin Bombay Saphire">
+                            <h5>Gin Bombay Saphire</h5>
                         </div>
                         <div>
-                            <img id="productos" src="../img/speed.png" alt="Speed" title="Speed">
-                            <h5>Speed 473ml</h5>
+                            <img id="productos" src="../img/skyycoco.jpg" alt="Skyy de coco" title="Skyy de coco">
+                            <h5>Skyy de coco</h5>
                         </div>
                         <div>
-                            <img id="productos" src="../img/monster.png" alt="Monster" title="Monster">
-                            <h5>Monster 473ml</h5>
+                            <img id="productos" src="../img/santajulia.png" alt="Santa Julia" title="Santa Julia">
+                            <h5>Santa Julia</h5>
                         </div>
                         <div>
-                            <img id="productos" src="../img/fernet750.jpg" alt="Fernet Branca 750ml" title="fernet branca 750ml">
-                            <h5>Fernet Branca 750ml</h5>
+                            <img id="productos" src="../img/frizze.png" alt="Frizze" title="Frizze">
+                            <h5>Frizze</h5>
                         </div>
                         <div>
-                            <img id="productos" src="../img/cocacola.png" alt="Coca Cola" title="coca cola">
-                            <h5>Coca Cola 2l</h5>
-                        </div>
-                        <div>
-                        <img id="productos" src="../img/viñadebalbo.jpg" alt="Viña de balbo" title="viña de balbo"> 
-                            <h5>Viña de Balbo</h5>
+                            <img id="productos" src="../img/brahma.png" alt="Brahma" title="Brahma">
+                            <h5>Brahma</h5>
                         </div>
                     </div>  
-            </section>
+            
         </div>        
     </header> 
 
