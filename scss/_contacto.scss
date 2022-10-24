@@ -1,0 +1,48 @@
+.contenedor {
+    text-align: center;
+        .tit {
+            padding: 16px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            h1 {
+                color: #fff;
+                
+            }
+            h2 {
+                color: #ffffff;
+            }
+        }
+        .form {
+            
+            background-color: #111;
+            opacity: 0.9;
+            width: 320px;
+            height: 400px;
+            display: inline-block;
+            text-align: end;
+            padding: 16px;
+            div {
+                padding: 6px;
+                label {
+                    color: #fff;
+                }
+            }
+            .comentario {
+                display: inline-block;
+                padding: 16px;     
+            }
+            .boton {
+                text-align: center;
+                input {
+                    background-color: #000000;
+                    color: #fff;
+                }
+                input:hover {
+                    background-color: #830202;
+                }
+            }
+            
+            
+       
+
+        }
+}
