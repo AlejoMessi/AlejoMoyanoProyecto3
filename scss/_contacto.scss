@@ -5,11 +5,13 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
             h1 {
                 color: #fff;
-                
+                font-size: 22px;
             }
             h2 {
-                color: #ffffff;
-            }
+                color: #000000;
+                text-shadow: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+                font-size: 22px;
+            }   
         }
         .form {
             

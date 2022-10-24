@@ -1,0 +1,128 @@
+/*inicio*/
+@media screen and (min-width: 779px) {
+    .inicio{
+        .sub-inicio {
+            .sub2-inicio {
+                h2 {
+                    font-size: 30px;
+                }
+                h3 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 27px;
+                }
+            }
+        }
+        .beb-inicio {
+            div {
+                .cartel-prittycero {
+                    h3 {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 30px;
+                    }
+                    div {
+                        #img-dest {
+                            height: 200px;
+                            width: 170px;
+                        }
+                        #img-dest:hover {
+                            height: 215px;
+                            width: 175px;
+                        } 
+                        
+                        h5 {
+                            font-size: 22px;
+                        }
+                    }
+                }
+                .prod-destac {
+                    h3 {
+                        font-size: 30px;
+                    }
+                    .contenedor-prod {
+                        div {
+                            h5 {
+                                font-size: 22px;
+                            }
+                            #img-dest {
+                                height: 200px;
+                                width: 170px;
+                            }
+                            #img-dest:hover {
+                                height: 215px;
+                                width: 175px;
+                            } 
+                        }
+                    }
+                    a {
+                        font-size: 20px;
+                    }
+                }
+                .cartel-tragos {
+                    h3 {
+                    font-size: 30px;
+                    padding: 24px;
+                    }
+                }
+            }
+        }
+    }
+    /*bebidas*/
+    .cont-bebidas {
+        h4 {
+            font-size: 30px;
+        }
+        .cont2-bebidas {
+            div {
+                h5 {
+                    font-size: 20px;
+                }
+                #productos {
+                    height: 230px;
+                    width: 200px;
+                }
+                #productos:hover {
+                    height: 245px;
+                    width: 205px;
+                } 
+            }
+        }
+
+    }
+
+    /*nosotros*/
+    .nosotros {
+        .cont-nos {
+            .presentacion {
+                h2 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 25px;
+                }
+            }
+            .carrusel {
+                img {
+                    height: 550px;
+                }
+            }
+        }
+        
+    }
+    /*contacto*/
+    .contacto {
+        .contenedor {
+            .tit {
+                h1 {
+                    font-size: 30px;
+                }
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+} 

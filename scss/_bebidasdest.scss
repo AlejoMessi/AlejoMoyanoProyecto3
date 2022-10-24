@@ -15,7 +15,8 @@
             color: #ffffff;
         }
         p {
-            color: #ffffff;
+            color: #000000;
+            text-shadow: 0 0 15px #ffffff, 0 0 15px #ffffff, 0 0 15px #ffffff;
         }
         div {
             #img-dest {
@@ -34,7 +35,9 @@
         }
     }    
     .prod-destac {
-              
+        h3 {
+            font-family: 'Quattrocento', serif;
+        }     
         .contenedor-prod {
             display: flex;
             flex-wrap: wrap;
@@ -70,6 +73,9 @@
         }
     }   
     .cartel-tragos {
+        h3 {
+            font-family: 'Quattrocento', serif;
+        }
         padding: 16px 0;
         #carteltragos {
             height: 20%;
