@@ -1,0 +1,56 @@
+.nosotros {
+    .cont-nos {
+        .inicio {
+            background-image: url(../img/localnos.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 50vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-family: "Quattrocento", serif;
+                color: #fff;
+                text-shadow: 0 0 15px #000000, 0 0 15px #000000, 0 0 15px #000000;
+            }
+            h3 {
+                font-family: "Quattrocento", serif;
+                color: #fff;
+                text-shadow: 0 0 15px #000000, 0 0 15px #000000, 0 0 15px #000000;
+            }
+        }
+        .presentacion {
+            padding: 16px;
+            background-color: #c9c9c9;
+            h2 {
+                color: #000000;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+                padding: 16px;
+                font-size: 23px;
+                text-align: center;
+            }
+            p { 
+                color: #000000;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 17px;
+                text-align: left;
+            }
+        }
+        .video {
+            background-color: #c9c9c9;
+            color: #000000;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            padding: 24px;
+            text-align: center;
+            iframe {
+                padding: 16px;
+                width: 100%;
+                
+                
+                max-width: 600px;
+            }
+        }
+    }
+}
