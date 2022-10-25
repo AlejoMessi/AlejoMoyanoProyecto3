@@ -123,6 +123,21 @@
                     font-size: 30px;
                 }
             }
+            .form {
+                width: 390px;
+                height: 450px;
+                div {
+                    padding: 12px;
+                    input {
+                        width: 220px;
+                    }
+                }
+                .cont-boton {
+                    input {
+                        width: 80px;
+                    }
+                }
+            }
         }
     }
 } 

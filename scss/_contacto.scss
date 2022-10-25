@@ -1,7 +1,8 @@
+/*contacto*/
 .contenedor {
     text-align: center;
         .tit {
-            padding: 16px;
+            padding: $padding-1;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
             h1 {
                 color: #fff;
@@ -9,7 +10,7 @@
             }
             h2 {
                 color: #000000;
-                text-shadow: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+                text-shadow: $sombra-letra;
                 font-size: 22px;
             }   
         }
@@ -18,25 +19,34 @@
             background-color: #111;
             opacity: 0.9;
             width: 320px;
-            height: 400px;
+            height: 380px;
             display: inline-block;
             text-align: end;
-            padding: 16px;
+            padding: $padding-1;
             div {
                 padding: 6px;
                 label {
                     color: #fff;
                 }
+                input {
+                    width: 180px;
+                }
+                 
             }
             .comentario {
                 display: inline-block;
-                padding: 16px;     
+                padding: $padding-1;     
             }
-            .boton {
+            .cont-boton {
                 text-align: center;
-                input {
-                    background-color: #000000;
+                .boton {
+                    width: 80px;
                     color: #fff;
+                    padding: 4px;
+                }
+                input {
+                    @extend .boton;
+                    background-color: #000000;
                 }
                 input:hover {
                     background-color: #830202;

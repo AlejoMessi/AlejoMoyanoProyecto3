@@ -9,22 +9,26 @@
                 flex-wrap: wrap;
                 text-align: center;
                 justify-content: center;
-                padding: 16px; 
+                padding: $padding-1; 
 
                 div {  
                     padding: 12px;
-                    #productos {
-                        height: 140px;
-                        width: 120px;
-                    }       
-                    #productos:hover {
-                        height: 150px;
-                        width: 110px;
+                    @mixin size ($alto, $ancho) {
+                        height: $alto;
+                        width: $ancho;
                     }
+                    #productos{
+                        @include size (140px, 120px)
+                    }
+                    #productos:hover {
+                        @include size (150px, 130px)
+                    }
+
                     h5 {
-                        font-size: 12px; 
+                        font-size: $tam-letra; 
                         color: #ffffff;
-                        font-family: 'Quattrocento', serif;
+                        font-family: $est-letra;
+                        padding: 4px;
                     } 
                     
                 }

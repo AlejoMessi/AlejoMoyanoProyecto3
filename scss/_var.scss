@@ -1,30 +1,4 @@
-/*.bebidas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    .cont-bebidas {
-        section {
-            h4 {
-                color: #fff;
-            }
-            div {
-                div {
-                    h5 {
-                        color: #fff;
-                    }    
-                    #productos {
-                        height: 180px;
-                        width: 150px;
-                    }       
-                    #productos:hover {
-                        height: 190px;
-                        width: 160px;
-                    }
-                    
-                }
-            }
-        }
-
-    }
-}-->
+$tam-letra: 12px; 
+$est-letra: 'Quattrocento', serif;
+$sombra-letra: 0 0 15px #fff, 0 0 15px #fff, 0 0 15px #fff;
+$padding-1: 16px;

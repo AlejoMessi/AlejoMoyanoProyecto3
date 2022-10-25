@@ -9,7 +9,7 @@
     }
     .menu {
         div{
-            font-family: 'Quattrocento', serif;
+            font-family: $est-letra;
             list-style: none;
             li {
                 .sub-tit {
@@ -65,7 +65,4 @@
         }
     }
        
-}
-.nav-responsive {
-    display: none;
 }
