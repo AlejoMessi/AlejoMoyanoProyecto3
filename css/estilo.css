@@ -15,7 +15,8 @@
   font-size: 18px;
 }
 .contenedor-nav .menu div li .sub-tit:hover {
-  color: #fdad00;
+  color: #701212;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
   font-size: 20px;
 }
 .contenedor-nav .menu div li .sub-pag {
@@ -39,15 +40,16 @@
   color: #dbd8d6;
 }
 .contenedor-nav .menu div div ul li #nav-1:hover {
-  color: #fdad00;
+  color: #701212;
   font-size: 20px;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
 }
 .contenedor-nav .menu div div form button {
   color: #ffffff;
   border-color: #ffffff;
 }
 .contenedor-nav .menu div div form button:hover {
-  background-color: #790101;
+  background-color: #701212;
 }
 
 body {
@@ -429,6 +431,47 @@ body {
   background-color: #830202;
 }
 
+/*footer*/
+footer {
+  background-color: #701212;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+footer .tit-redes {
+  font-family: "Quattrocento", serif;
+}
+footer .tit-redes h1 {
+  font-size: 35px;
+  color: #000000;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  margin-top: 20px;
+}
+footer .tit-redes h3 {
+  font-size: 16px;
+  padding: 16px;
+  color: #000000;
+}
+footer .cont-icono .icono {
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+}
+footer .info {
+  color: #000000;
+  padding: 12px;
+}
+footer .info h4 {
+  font-size: 16px;
+}
+
 /*inicio*/
 @media screen and (min-width: 779px) {
   .inicio .sub-inicio .sub2-inicio h2 {
@@ -525,61 +568,25 @@ body {
   }
   /*footer*/
   footer {
+    display: flex;
     flex-direction: row;
+    height: 250px;
   }
   footer .tit-redes h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
-  footer div .icono {
-    height: 30px;
-    width: 30px;
-    color: #ffffff;
+  footer .tit-redes h3 {
+    font-size: 22px;
   }
-  footer div .info {
-    color: #000000;
-    padding: 12px;
+  footer .cont-icono .icono {
+    height: 70px;
+    width: 70px;
+    padding: 8px;
   }
-  footer div .info h4 {
-    font-size: 16px;
+  footer .info {
+    padding: 22px;
   }
-}
-/*footer*/
-footer {
-  background-color: #701212;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 300px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-footer .tit-redes {
-  font-family: "Quattrocento", serif;
-}
-footer .tit-redes h1 {
-  font-size: 35px;
-  color: #000000;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
-  margin-top: 20px;
-}
-footer .tit-redes h3 {
-  font-size: 16px;
-  padding: 16px;
-  color: #000000;
-}
-footer div .icono {
-  height: 30px;
-  width: 30px;
-  color: #ffffff;
-}
-footer div .info {
-  color: #000000;
-  padding: 12px;
-}
-footer div .info h4 {
-  font-size: 16px;
+  footer .info h4 {
+    font-size: 24px;
+  }
 }

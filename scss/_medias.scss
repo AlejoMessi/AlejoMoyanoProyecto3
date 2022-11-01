@@ -145,27 +145,29 @@
     footer {
         display: flex;
         flex-direction: row;
-        
+        height: 250px;
         .tit-redes {
             h1 {
-                font-size: 50px;
+                font-size: 45px;
+            }
+            h3 {
+                font-size: 22px;
             }
         }
-        div {
+        .cont-icono {
             .icono {
-                height: 30px;
-                width: 30px;
-                color: #ffffff;
+                height: 70px;
+                width: 70px;
+                padding: 8px;
             }
         }
-        div {
-            .info{
-                color: #000000;
-                padding: 12px;
-                h4 {
-                    font-size: 16px;
-                }
+        
+        .info{
+            padding: 22px;
+            h4 {
+                font-size: 24px;
             }
         }
+        
     }
 } 

@@ -17,7 +17,8 @@
                     font-size: 18px;
                 }
                 .sub-tit:hover {
-                    color: #fdad00;
+                    color: $color1;
+                    text-shadow: $sombra-letra2;
                     font-size: 20px;
                 }
                 .sub-pag {
@@ -46,8 +47,9 @@
                             color: #dbd8d6;
                             }
                         #nav-1:hover {
-                            color: #fdad00;
+                            color: $color1;
                             font-size: 20px;
+                            text-shadow: $sombra-letra2;
                             }
                     }
                 }
@@ -57,7 +59,8 @@
                         border-color: #ffffff;
                     }
                     button:hover {
-                        background-color: #790101;
+                        background-color: $color1;
+                        
                     }
                 }
             }
