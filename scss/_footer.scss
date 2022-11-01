@@ -1,29 +1,48 @@
 /*footer*/
 footer {
-    
-    background-color: #000000;
+    background-color: #701212;
     display: flex;
-    flex-direction: rows;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 30px;
+    height: 300px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    div {
-        a {
-            font-family: $est-letra;
-            font-size: 16px;
-            text-decoration: none;
-            display: inline-block;
-            padding: 0 8px;
-            margin: 0 8px;
-            color: #ffffff;
+    text-align: center;
+
+    
+    .tit-redes {
+            font-family: "Quattrocento", serif;
+        
+        h1 {
+            font-size: 35px;
+            color: #000000;
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+            margin-top: 20px;    
         }
-        a:hover {
-            color: #807e7e;
+        h3 {
+            font-size: 16px;
+            padding: 16px;
+            color: #000000;
         }
     }
     
-    
+    div {
+        .icono {
+            height: 30px;
+            width: 30px;
+            color: #ffffff;
+        }
+    }
+    div {
+        .info{
+            color: #000000;
+            padding: 12px;
+            h4 {
+                font-size: 16px;
+            }
+        }
+    }
 }

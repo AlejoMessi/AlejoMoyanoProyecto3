@@ -140,4 +140,32 @@
             }
         }
     }
+
+    /*footer*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        
+        .tit-redes {
+            h1 {
+                font-size: 50px;
+            }
+        }
+        div {
+            .icono {
+                height: 30px;
+                width: 30px;
+                color: #ffffff;
+            }
+        }
+        div {
+            .info{
+                color: #000000;
+                padding: 12px;
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 } 
